@@ -7,8 +7,8 @@ const int MOD = 666013;
 int N, dp[NMAX][2];
 
 int main() {
-    freopen("lego.in", "r", stdin);
-    freopen("lego.out", "w", stdout);
+    freopen("zid.in", "r", stdin);
+    freopen("zid.out", "w", stdout);
 
     scanf("%d", &N);
 

@@ -5,6 +5,7 @@ import shutil
 import os
 
 os.system('make')
+os.system('mkdir -p teste')
 
 # Generate first 3 tests
 N_min = 5
@@ -13,18 +14,18 @@ N_max = 30
 for i in range(3):
     N = random.randint(N_min, N_max)
     print(f'Test {i}: N = {N:5d}', end= ', ')
-    open(f'teste/lego-{i}.in', 'w').write(str(N))
+    open(f'teste/zid-{i}.in', 'w').write(str(N))
 
-    shutil.copyfile(f'teste/lego-{i}.in', 'lego.in')
+    shutil.copyfile(f'teste/zid-{i}.in', 'zid.in')
     os.system('exec/sol_dp')
 
-    R = int(open('lego.out').read())
+    R = int(open('zid.out').read())
     print(f'Solution: {R}')
 
-    shutil.copyfile('lego.out', f'teste/lego-{i}.ok')
+    shutil.copyfile('zid.out', f'teste/zid-{i}.ok')
 
-    os.remove('lego.in')
-    os.remove('lego.out')
+    os.remove('zid.in')
+    os.remove('zid.out')
 
 # Generate the rest
 N_min = 30
@@ -33,15 +34,15 @@ N_max = 5000
 for i in range(3, 10):
     N = random.randint(N_min, N_max)
     print(f'Test {i}: N = {N:5d}', end=', ')
-    open(f'teste/lego-{i}.in', 'w').write(str(N))
+    open(f'teste/zid-{i}.in', 'w').write(str(N))
 
-    shutil.copyfile(f'teste/lego-{i}.in', 'lego.in')
+    shutil.copyfile(f'teste/zid-{i}.in', 'zid.in')
     os.system('exec/sol_dp')
 
-    R = int(open('lego.out').read())
+    R = int(open('zid.out').read())
     print(f'Solution: {R}')
 
-    shutil.copyfile('lego.out', f'teste/lego-{i}.ok')
+    shutil.copyfile('zid.out', f'teste/zid-{i}.ok')
 
-    os.remove('lego.in')
-    os.remove('lego.out')
+    os.remove('zid.in')
+    os.remove('zid.out')

@@ -1,4 +1,4 @@
-# lego
+# zid
 
 Limita de timp: 0.1 secunde
 
@@ -8,11 +8,11 @@ Gigel doreşte să construiască un zid de înălţime N din piese lego. El are 
 
 ## Date de intrare
 
-Pe prima linia a fişierului lego.in se află numărul N.
+Pe prima linia a fişierului zid.in se află numărul N.
 
 ## Date de ieşire
 
-Pe prima linie a fişierului lego.out se va afişa un număr R, reprezentând numărul de moduri în care Gigel poate construi zidul __modulo 666013__.
+Pe prima linie a fişierului zid.out se va afişa un număr R, reprezentând numărul de moduri în care Gigel poate construi zidul __modulo 666013__.
 
 ## Restricţii şi precizări
 
@@ -25,8 +25,8 @@ Pe prima linie a fişierului lego.out se va afişa un număr R, reprezentând nu
 <table>
   
   <tr>
-    <th>lego.in</th>
-    <th>lego.out</th>
+    <th>zid.in</th>
+    <th>zid.out</th>
     <th>Explicaţie</th>
   </tr>
   <tr>

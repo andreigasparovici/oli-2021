@@ -11,10 +11,6 @@ int num_sol, sol[NMAX];
 
 void bkt(int k) {
     if (k == N + 1) {
-        //for (int i = 1; i <= N; i++)
-        //    cout << (sol[i] == g ? 'G' : 'R') << " ";
-        //cout << endl;
-
         num_sol = (1LL * num_sol + 1) % MOD;
         return;
     }
@@ -37,7 +33,7 @@ void bkt(int k) {
 
 int main() {
     freopen("lego.in", "r", stdin);
-    //freopen("lego.out", "w", stdout);
+    freopen("lego.out", "w", stdout);
 
     scanf("%d", &N);
 

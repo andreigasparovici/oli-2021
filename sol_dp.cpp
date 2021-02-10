@@ -8,7 +8,7 @@ int N, dp[NMAX][2];
 
 int main() {
     freopen("lego.in", "r", stdin);
-    //freopen("lego.out", "w", stdout);
+    freopen("lego.out", "w", stdout);
 
     scanf("%d", &N);
 

@@ -16,8 +16,8 @@ Pe prima linie a fişierului lego.out se va afişa un număr R, reprezentând nu
 
 ## Restricţii şi precizări
 
-* Pentru teste în valoare de 30p, 10 <= N <= ?
-* Pentru teste în valoare de 70p, ? <= N <= 3000
+* Pentru teste în valoare de 30p, 5 <= N <= 30
+* Pentru teste în valoare de 70p, 30 <= N <= 5000
 * Gigel dispune de un număr nelimitat de piese.
 
 ## Exemplu
@@ -29,7 +29,7 @@ lego.in
 
 lego.out
 ```
-10
+11
 ```
 
 Explicaţie

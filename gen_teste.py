@@ -4,6 +4,8 @@ import random
 import shutil
 import os
 
+os.system('make')
+
 # Generate first 3 tests
 N_min = 5
 N_max = 30

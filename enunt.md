@@ -24,15 +24,20 @@ Pe prima linie a fişierului lego.out se va afişa un număr R, reprezentând nu
 
 lego.in
 ```
-6
+4
 ```
 
 lego.out
 ```
-11
+4
 ```
 
 Explicaţie
+Notând cu V piesele verzi şi cu R piesele roşii, pentru N = 4 se pot construi următoarele ziduri:
+
 ```
-?
+[V] [V] [V] [V] 
+[V] [    R    ]
+[    R    ] [V]
+[      R      ]
 ```

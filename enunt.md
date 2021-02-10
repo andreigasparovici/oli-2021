@@ -1,6 +1,6 @@
 # lego
 
-Limita de timp: ?
+Limita de timp: 0.1 secunde
 
 Limita de memorie: ?
 
@@ -17,7 +17,7 @@ Pe prima linie a fişierului lego.out se va afişa un număr R, reprezentând nu
 ## Restricţii şi precizări
 
 * Pentru teste în valoare de 30p, 10 <= N <= ?
-* Pentru teste în valoare de 70p, ? <= N <= ?
+* Pentru teste în valoare de 70p, ? <= N <= 3000
 * Gigel dispune de un număr nelimitat de piese.
 
 ## Exemplu

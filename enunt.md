@@ -17,7 +17,7 @@ Pe prima linie a fişierului zid.out se va afişa un număr R, reprezentând num
 ## Restricţii şi precizări
 
 * Pentru teste în valoare de 30p, 5 <= N <= 30
-* Pentru teste în valoare de 70p, 30 <= N <= 5000
+* Pentru teste în valoare de 70p, 30 <= N <= 7000
 * Gigel dispune de un număr nelimitat de piese.
 
 ## Exemplu

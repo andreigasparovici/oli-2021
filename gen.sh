@@ -29,4 +29,4 @@ function generate() {
 }
 
 generate 5 30 1 3
-generate 30 5000 4 10
+generate 30 7000 4 10

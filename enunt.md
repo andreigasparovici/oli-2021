@@ -12,7 +12,7 @@ Pe prima linia a fişierului zid.in se află numărul N.
 
 ## Date de ieşire
 
-Pe prima linie a fişierului zid.out se va afişa un număr R, reprezentând numărul de moduri în care Gigel poate construi zidul __modulo 666013__.
+Pe prima linie a fişierului zid.out se va afişa numărul de moduri în care Gigel poate construi zidul __modulo 666013__.
 
 ## Restricţii şi precizări
 

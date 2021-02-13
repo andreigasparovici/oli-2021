@@ -2,7 +2,7 @@
 
 PROBLEM="zid"
 
-make
+make solution
 
 function generate() {
     N_min=$1

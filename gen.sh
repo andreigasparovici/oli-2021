@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+PROBLEM="zid"
+
 make
 
 function generate() {
@@ -10,19 +12,19 @@ function generate() {
 
     for ((i=$i_min; i<=$i_max; i++)); do
         N=$(shuf -i $N_min-$N_max -n 1)
-        echo $N > teste/zid-$i.in
+        echo $N > teste/$PROBLEM-$i.in
 
-        cp teste/zid-$i.in zid.in
+        cp teste/$PROBLEM-$i.in $PROBLEM.in
         ./exec/sol_dp
 
         echo "Test $i"
-        echo "IN: $(cat zid.in)"
-        echo "OUT: $(cat zid.out)"
+        echo "IN: $(cat $PROBLEM.in)"
+        echo "OUT: $(cat $PROBLEM.out)"
         echo
 
-        cp zid.out teste/zid-$i.ok
+        cp $PROBLEM.out teste/$PROBLEM-$i.ok
 
-        rm zid.in zid.out
+        rm $PROBLEM.in $PROBLEM.out
     done
 }
 
